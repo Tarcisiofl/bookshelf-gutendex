@@ -22,9 +22,9 @@ To run the project locally and explore its functionalities, follow the instructi
 
 ### Prerequisites
 
-- Android Studio (version X.X.X or higher)
+- Android Studio (version Android Studio Dolphin | 2021.3.1 Patch 1 or higher)
 - Android SDK
-- Kotlin (version X.X.X or higher)
+- Kotlin (version 1.8.0 or higher)
 
 ### Installation
 
