@@ -1,6 +1,6 @@
 # Bookshelf Showcase App
 
-This repository contains a simple app developed as part of the engineering skills showcase for MORO TECH. The app displays a list of books and provides a detailed screen for each book. It utilizes the public API provided by Gutendex to fetch the required data.
+This repository contains a simple app developed as part of the engineering skills showcase. The app displays a list of books and provides a detailed screen for each book. It utilizes the public API provided by Gutendex to fetch the required data.
 
 ## Project Expectations
 
