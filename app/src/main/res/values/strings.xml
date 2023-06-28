@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bookshelf</string>
+
+    <!-- Strings with format -->
+    <string name="author_prefix">By %s</string>
+
+    <!-- Book Screen Titles -->
+    <string name="bookshelf_title">Books</string>
+    <string name="bookshelf_description_title">Book Info</string>
+
+    <!-- Book Card Information Labels -->
+    <string name="languages_label">Languages</string>
+    <string name="copyright_label">Copyright</string>
+    <string name="media_type_label">Media Type</string>
+
+    <!-- Book More Information -->
+    <string name="subjects_subtitle">Subjects</string>
+    <string name="bookshelves_subtitle">Bookshelves</string>
+
+    <!-- Strings for accessibility -->
+    <string name="download_count_label">Number of downloads</string>
+</resources>
