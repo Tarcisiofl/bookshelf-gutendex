@@ -13,6 +13,7 @@ fun List<String>.formatWithCommas(): String {
     return stringBuilder.toString()
 }
 
+
 fun List<Person>.formatWithAmpersand(): String {
     val stringBuilder = StringBuilder()
     for (i in indices) {
@@ -23,5 +24,28 @@ fun List<Person>.formatWithAmpersand(): String {
     }
     return stringBuilder.toString()
 }
+
+fun List<Person>.formatWithAmpersandAndDates(): String {
+    val stringBuilder = StringBuilder()
+    for (i in indices) {
+        val person = this[i]
+        val authorString = buildAuthorString(person)
+        stringBuilder.append(authorString)
+        if (i < size - 1) {
+            stringBuilder.append(" & ")
+        }
+    }
+    return stringBuilder.toString()
+}
+
+private fun buildAuthorString(person: Person): String {
+    val stringBuilder = StringBuilder()
+    stringBuilder.append(person.name)
+    if (person.birthYear != null && person.deathYear != null) {
+        stringBuilder.append(" (${person.birthYear} - ${person.deathYear})")
+    }
+    return stringBuilder.toString()
+}
+
 
 typealias Format = Map<String, String>

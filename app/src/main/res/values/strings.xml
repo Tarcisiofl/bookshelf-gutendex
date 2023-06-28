@@ -2,7 +2,7 @@
     <string name="app_name">Bookshelf</string>
 
     <!-- Strings with format -->
-    <string name="author_prefix">By %s</string>
+    <string name="author_prefix">By %1$s</string>
 
     <!-- Book Screen Titles -->
     <string name="bookshelf_title">Books</string>

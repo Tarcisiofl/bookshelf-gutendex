@@ -30,7 +30,7 @@ import br.com.tarcisiofl.bookshelf.domain.model.Book
 import br.com.tarcisiofl.bookshelf.domain.model.Person
 import br.com.tarcisiofl.bookshelf.presentation.details.*
 import br.com.tarcisiofl.bookshelf.ui.theme.BookshelfTheme
-import br.com.tarcisiofl.bookshelf.utils.formatWithAmpersand
+import br.com.tarcisiofl.bookshelf.utils.formatWithAmpersandAndDates
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 
@@ -172,7 +172,7 @@ fun BookDetails(book: Book, actioner: (BookDetailsEvent) -> Unit) {
                     Text(
                         stringResource(
                             id = R.string.author_prefix,
-                            book.authors.formatWithAmpersand()
+                            book.authors.formatWithAmpersandAndDates()
                         ),
                         style = MaterialTheme.typography.body2,
                         color = MaterialTheme.colors.secondary,
